@@ -72,3 +72,7 @@ a:link {
 #social-footer > #social-container .fa {
   font-size: 0.5em !important;
 }
+
+#social-container a {
+  margin: 0.25em;
+}
