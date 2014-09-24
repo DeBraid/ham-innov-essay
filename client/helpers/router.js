@@ -70,6 +70,7 @@ Router.map(function() {
   });
 
   this.route('content');
+  this.route('contact');
 
   // Users
 

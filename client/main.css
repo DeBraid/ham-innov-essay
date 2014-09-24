@@ -49,3 +49,7 @@ body {
   border:0 #eee solid;
   border-right-width:5px;
 }
+
+.fa {
+  color: #BC0C0C;
+}
