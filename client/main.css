@@ -56,16 +56,19 @@ a:link {
 }
 
 #sidebar li.active {
-  border:0 #eee solid;
+  border:0 #CAAEAE solid;
   border-right-width:5px;
+}
+
+#sidebar a,
+.well a {
+  color: black;
 }
 
 .fa {
   font-size: 3em;
 }
 
-/*@media (min-width: 400px) {
-  #social-container {
-    font-size: 36px;
-  }
-}*/
+#social-footer > #social-container .fa {
+  font-size: 0.5em !important;
+}
