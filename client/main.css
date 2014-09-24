@@ -55,3 +55,12 @@ h2 {
   border-right-width:5px;
 }
 
+.fa {
+  font-size: 3em;
+}
+
+/*@media (min-width: 400px) {
+  #social-container {
+    font-size: 36px;
+  }
+}*/
