@@ -20,6 +20,8 @@ Template.homepage.events({
     
     var targetDiv = $(e.target).attr('href');
 
+    window.location.hash = targetDiv;
+
     Meteor.call('goToByScroll', targetDiv);
   }
 });
