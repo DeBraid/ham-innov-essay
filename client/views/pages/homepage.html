@@ -3,18 +3,19 @@
   <div class="container">
       <div class="row">
         <div class="col-md-7">
-          <h1>Bootstrap Sidebar
-            <p class="lead">With Affix and Scrollspy</p>
+          <h1>Innovation and Technology in Southern Ontario
+            <p class="lead">Review of Hamilton, Toronto and Waterloo</p>
           </h1>
         </div>
         <div class="col-md-5">
             <div class="well well-lg"> 
               <div class="row">
                 <div class="col-sm-6">
-                  <img src="//placehold.it/180x100" class="img-responsive">
+                  <img src="db2014headshot.jpg" class="img-responsive">
+                  by Derek Braid
                 </div>
                 <div class="col-sm-6">
-                  Some text here
+                  {{> social}}
                 </div>
               </div>
             </div>
@@ -28,21 +29,15 @@
   <div class="row">
       <!--left-->
       <div class="col-md-3" id="leftCol">
-        <ul class="nav nav-stacked" id="sidebar">
-          <li><a href="#sec0">Section 0</a></li>
-          <li><a href="#sec1">Section 1</a></li>
-          <li><a href="#sec2">Section 2</a></li>
-          <li><a href="#sec3">Section 3</a></li>
-          <li><a href="#sec4">Section 4</a></li>
-        </ul>
+        {{> sidebar }}
       </div><!--/left-->
       
       <!--right-->
       <div class="col-md-9">
-        <h2 id="sec0">Content</h2>
+        <h2 id="summary">Summary</h2>
         <p>
-          At Bootply we like to build simple Bootstrap templates that utilize the code Bootstap CSS without a lot of customization. Sure you can 
-          find a lot of Bootstrap themes and inspiration, but these templates tend to be heavy on customization.</p>
+          Risk appetite and capital flow are discussed in the context of creating a start-up culture in a rust belt city.  How to address the labour shortage of information, communitications and technology (ICT) sector in an aging city with sub-optimal educational infrastructure?
+        </p>
         
         <hr>
         <p>
@@ -57,7 +52,7 @@
           sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
           Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!</p>
         
-        <h2 id="sec1">Content</h2>
+        <h2 id="intro">Introduction</h2>
         <p>
           Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
           dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
@@ -87,7 +82,7 @@
         
         <hr>
         
-        <h2 id="sec2">Section 2</h2>
+        <h2 id="software">Software</h2>
         <p>
           Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
           dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
@@ -103,7 +98,7 @@
         
         <hr>
         
-        <h2 id="sec3">Section 3</h2>
+        <h2 id="talent">Talent</h2>
         <p>
           Images are responsive sed @mdo but sum are more fun peratis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
           totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
@@ -116,8 +111,22 @@
           sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
           Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..</p>
         
+        <hr>
+
         
-        <h2 id="sec4">Section 4</h2>
+        <h2 id="conclusion">Conclusion</h2>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.</p>
+      
+        <hr>
+      
+
+        <h2 id="charts">Charts</h2>
         <p>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
           totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
@@ -132,4 +141,16 @@
 
 
 
+</template>
+
+
+<template name="sidebar">
+  <ul class="nav nav-stacked" id="sidebar">
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#intro">Introduction</a></li>
+    <li><a href="#software">Software Eating the World</a></li>
+    <li><a href="#talent">Competition for Talent</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#charts"><i class="fa fa-bar-chart"></i></a></li>
+  </ul>
 </template>

@@ -2,6 +2,11 @@ body {
  padding-top:50px;
 }
 
+.fa,
+h2 {
+  color: #BC0C0C;
+}
+
 #masthead { 
  min-height:250px;
 }
@@ -50,6 +55,3 @@ body {
   border-right-width:5px;
 }
 
-.fa {
-  color: #BC0C0C;
-}
