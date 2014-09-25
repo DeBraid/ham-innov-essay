@@ -1,5 +1,11 @@
 body {
- padding-top:50px;
+ margin-top: 40px;
+}
+
+#report-body,
+h2 {
+  padding-top: 80px;
+  margin-top: -40px;
 }
 
 .fa,

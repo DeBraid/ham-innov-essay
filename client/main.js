@@ -19,7 +19,7 @@ Template.homepage.events({
     e.preventDefault();     
     
     var targetDiv = $(e.target).attr('href'),
-        offset = 250;
+        offset = 80;
 
     window.location.hash = targetDiv;
 
