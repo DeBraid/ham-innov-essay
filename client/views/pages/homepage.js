@@ -5,7 +5,6 @@ Template.homepage.rendered = function () {
       top: 255
     }
   });
-
   /* activate scrollspy menu */
   var $body   = $(document.body);
   var navHeight = $('.navbar').outerHeight(true)*1.5;

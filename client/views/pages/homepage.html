@@ -1,108 +1,59 @@
 <template name="homepage">
-<div id="masthead">  
-  <div class="container">
-      <div class="row">
-        <div class="col-md-7">
-          <h1>Innovation and Technology in Southern Ontario
-            <p class="lead">Review of Hamilton, Toronto and Waterloo</p>
-          </h1>
-        </div>
-        <div class="col-md-5">
-            <div class="well well-lg"> 
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-4">
-                  <img src="db2014headshot.jpg" class="img-responsive">
-                </div>
-                <div class="col-sm-6">
-                  <p>by Derek Braid</p>
-                  <p>Web Development, Research and Data Visualization</p>
-                  <p><a href="http://www.cacheflow.ca/" target="_blank">cacheflow.ca</a></p>
-                  
-                  
-                  {{> social}}
+  <div id="masthead">  
+    <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h1>Innovation and Technology in Southern Ontario
+              <p class="lead">Review of Hamilton, Toronto and Waterloo</p>
+            </h1>
+          </div>
+          <div class="col-md-5">
+              <div class="well well-lg"> 
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-4">
+                    <img src="db2014headshot.jpg" class="img-responsive">
+                  </div>
+                  <div class="col-sm-6">
+                    <p>by Derek Braid</p>
+                    <p>Web Development, Research and Data Visualization</p>
+                    <p><a href="http://www.cacheflow.ca/" target="_blank">cacheflow.ca</a></p>
+                    
+                    {{> social}}
+
+                  </div>
                 </div>
               </div>
-            </div>
-        </div>
-      </div> 
-  </div><!--/container-->
-</div><!--/masthead-->
+          </div>
+        </div> <!--/row-->
+    </div><!--/container-->
+  </div><!--/masthead-->
 
-<!--main-->
-<div class="container">
-  <div class="row">
-      <!--left-->
-      <div class="col-md-3" id="leftCol">
-        {{> sidebar }}
-      </div><!--/left-->
-      
-      <!--right-->
-      <div id="report-body"  class="col-md-9">
-        {{> summary }}
+  <!--main essay content -->
+  <div class="container">
+    <div class="row">
+        <!--left sidebar-->
+        <div class="col-md-3" id="leftCol">
+          {{> sidebar }}
+        </div><!--/left-->
         
-        <hr>
+        <!--right essay content-->
+        <div id="report-body"  class="col-md-9">
+          {{> summary }}
+          <hr>
+          {{> intro }}
+          <hr>
+          {{> software }}
+          <hr>
+          {{> startups }}
+          <hr>
+          {{> talent }}
+          <hr>
+          {{> conclusion }}
+          <hr>
+          {{> charts }}
 
-        {{> intro }}
-        
-        <hr>
-        
-        {{> software }}
-        
-        <hr>
-        
-        <h2 id="talent">Talent</h2>
-        <p>
-          Images are responsive sed @mdo but sum are more fun peratis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..</p>
-        <p>
-          Fos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..</p>
-        
-        <hr>
-
-        
-        <h2 id="conclusion">Conclusion</h2>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.</p>
-      
-        <hr>
-      
-
-        <h2 id="charts">Charts</h2>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.</p>
-      
         </div><!--/right-->
-    </div><!--/row-->
-</div><!--/container-->
-
-
-
+      </div><!--/row-->
+  </div><!--/container-->
 </template>
 
-
-<template name="sidebar">
-  <ul class="nav nav-stacked" id="sidebar">
-    <li><a href="#summary">Summary</a></li>
-    <li><a href="#intro">Introduction</a></li>
-    <li><a href="#software">Software Eating the World</a></li>
-    <li><a href="#talent">Competition for Talent</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
-    <li><a href="#charts"><i class="fa fa-bar-chart"></i></a></li>
-  </ul>
-</template>
