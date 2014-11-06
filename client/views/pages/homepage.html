@@ -2,31 +2,10 @@
   <div id="masthead">  
     <div class="container">
         <div class="row">
-          <div class="col-md-7">
-            <h1>Innovation and Technology in Southern Ontario
-              <p class="lead">Review of Hamilton, Toronto and Waterloo</p>
-            </h1>
-          </div>
-          <div class="col-md-5">
-              <div class="well well-lg"> 
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-4">
-                    <img src="db2014headshot.jpg" class="img-responsive">
-                  </div>
-                  <div class="col-sm-6">
-                    <p>by Derek Braid</p>
-                    <p>Web Development, Research and Data Visualization</p>
-                    <p><a href="http://www.cacheflow.ca/" target="_blank">cacheflow.ca</a></p>
-                    
-                    {{> social}}
-
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div> <!--/row-->
-    </div><!--/container-->
-  </div><!--/masthead-->
+          {{> masthead }}
+        </div>
+    </div>
+  </div>
 
   <!--main essay content -->
   <div class="container">
@@ -57,3 +36,27 @@
   </div><!--/container-->
 </template>
 
+<template name="masthead">
+  <div class="col-md-7">
+    <h1>Innovation and Technology in Southern Ontario
+      <p class="lead">Review of Hamilton, Toronto and Waterloo</p>
+    </h1>
+  </div>
+  <div class="col-md-5">
+      <div class="well well-lg"> 
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-4">
+            <img src="db2014headshot.jpg" class="img-responsive">
+          </div>
+          <div class="col-sm-6">
+            <p>by Derek Braid</p>
+            <p>Web Development, Research and Data Visualization</p>
+            <p><a href="http://www.cacheflow.ca/" target="_blank">cacheflow.ca</a></p>
+            
+            {{> social}}
+
+          </div>
+        </div>
+      </div>
+  </div>
+</template>
