@@ -4,7 +4,7 @@
 
 Core thesis, mixture of original and borrowed thoughts that is poorly cited, working on improving this. 
 
-Software eating the world.  Automation + reach.  Never been more furtile environment for science (Steve Jurvetson), software (Marc Andressen) and mobile (Ben Evans).
+Software eating the world.  Automation + reach.  Never been more fertile environment for science (Steve Jurvetson), software (Marc Andressen) and mobile (Ben Evans).
 
 -------------------
 ## Why software?
@@ -27,3 +27,14 @@ Software eating the world.  Automation + reach.  Never been more furtile environ
   -- this goes both ways: 
       -- consumers have cheaper faster computers
       -- developers have tools for browsers and mobile
+
+## Why Hamilton
+1: -- proximity to TO, Waterloo.  Good schools and places to live are available.  
+2: -- Best upside potential, least risk of failure.
+3: -- strong diverse base of young who normally wont stay.
+
+## Why VC?
+1: formulaic 
+2: community based
+  -- old school lending B2B
+2: community based
