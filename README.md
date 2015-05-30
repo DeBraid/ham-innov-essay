@@ -4,7 +4,7 @@
 
 Core thesis, mixture of original and borrowed thoughts that is poorly cited, working on improving this. 
 
-Software eating the world.  Automation + reach.  Never been more fertile environment for science (Steve Jurvetson), software (Marc Andressen) and mobile (Ben Evans).
+Software eating the world.  Automation + reach.  Never been more fertile environment for science [(Steve Jurvetson)][2], software (Marc Andressen) and mobile [(Ben Evans)][1].
 
 -------------------
 ## Why software?
@@ -38,3 +38,6 @@ Software eating the world.  Automation + reach.  Never been more fertile environ
 2: community based
   -- old school lending B2B
 2: community based
+
+[1]: http://ben-evans.com/benedictevans/2014/10/28/presentation-mobile-is-eating-the-world
+[2]: https://www.youtube.com/watch?v=IPgyb6euISs
