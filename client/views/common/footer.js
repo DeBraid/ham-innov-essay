@@ -1,5 +1,5 @@
 Template.footer.events({
-  'click #scrollToTop': function () {
-    document.body.scrollTop = document.documentElement.scrollTop = 0;
-  }
+	'click #scrollToTop': function () {
+		document.body.scrollTop = document.documentElement.scrollTop = 0;
+	}
 });
