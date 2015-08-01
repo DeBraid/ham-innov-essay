@@ -20,3 +20,10 @@ Template.homepage.events({
         Meteor.call('goToByScroll', targetDiv);
     }
 });
+
+Template.layout.events({
+    'click #scrollToTop': function () {
+        console.log('clicky #scrollToTop');
+        Meteor.call('homeScrollUp');
+    }
+})

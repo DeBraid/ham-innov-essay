@@ -2,7 +2,13 @@
   <ul class="nav nav-stacked" id="sidebar">
     {{#each sections }}
 		<li>
-			<a href="#{{ id }}">{{ pretty }}</a>
+	    	{{#if icon }}
+				<a href="#" id="scrollToTop">
+		    		<i class="{{ icon }}"></i>
+				</a>
+				{{else}}
+				<a href="#{{ id }}">{{ pretty }}</a>
+	    	{{/if}}
 		</li>
     {{/each}}
   </ul>
