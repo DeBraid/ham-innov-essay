@@ -8,9 +8,7 @@ Template.homepage.rendered = function () {
   /* activate scrollspy menu */
   var $body   = $(document.body);
   var navHeight = $('.navbar').outerHeight(true)*1.5;
-
-
-  console.log('navHeight: -- ', navHeight);
+  // console.log('navHeight: -- ', navHeight);
 
   $body.scrollspy({
     target: '#leftCol',
