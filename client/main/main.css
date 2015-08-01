@@ -82,3 +82,7 @@ a:link {
 #social-container a {
   margin: 0.25em;
 }
+
+#contact-container {
+  margin-top: 15rem;
+}
