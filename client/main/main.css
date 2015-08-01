@@ -1,7 +1,3 @@
-body {
- margin-top: 40px;
-}
-
 #report-body,
 h2 {
   padding-top: 80px;
@@ -71,7 +67,7 @@ a:link {
   color: black;
 }
 
-.fa {
+#social-container .fa {
   font-size: 3em;
 }
 

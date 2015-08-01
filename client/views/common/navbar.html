@@ -1,0 +1,30 @@
+<template name="navbar">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="{{ pathFor 'homepage'}}">
+                    <i class="fa fa-home"></i>
+                </a>
+            </div>
+            <div class="nav navbar-nav navbar-right">
+                <a class="navbar-brand pull-right" href="{{ pathFor 'contact'}}">
+                    <i class="fa fa-envelope-square"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+<!--     <nav class="navbar navbar-default navbar-fixed-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+            </div>
+            <nav class="collapse navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav pull-right">
+                    <li>
+                        <a href="{{pathFor 'contact' }}"><i class="fa fa-envelope-square"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </nav> -->
+</template>
