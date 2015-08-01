@@ -1,27 +1,29 @@
-// Config
-
 Router.configure({
-  layoutTemplate: 'layout',
-  loadingTemplate: 'loading',
-  notFoundTemplate: 'notFound',
+    layoutTemplate: 'layout',
+    loadingTemplate: 'loading',
+    notFoundTemplate: 'notFound',
 });
 
-// Routes
-
-Router.map(function() {
-  this.route('homepage', {
-    path: '/'
-  });
-
-  this.route('contact');
+Router.map(function () {
+    this.route('homepage', {
+        path: '/'
+    });
+    this.route('contact');
 });
-
-// Filters
 
 var filters = {
-  myFilter: function () {
-    // do something
-  }
+    getCurrentRoute: function getCurrentRoute () {
+        var route = Router.current().route.name;
+        console.log('route:', route);
+
+        if (route == 'homepage') {
+            console.log('currentRouteIsHome true');
+            return Session.set('currentRouteIsHome', true);
+        } else {
+            console.log('currentRouteIsHome false');
+            return Session.set('currentRouteIsHome', false);
+        }
+    }
 }
 
-Router.onBeforeAction(filters.myFilter, {only: ['items']});
+Router.onBeforeAction(filters.getCurrentRoute)

@@ -1,6 +1,10 @@
 Template.sidebar.helpers({
 	sections: function () {
 		return [{
+		    id: 'home',
+		    pretty: 'Home',
+		    icon: 'fa fa-home fa-2x'
+		},{
 		    id: 'summary',
 		    pretty: 'Summary'
 		}, {
