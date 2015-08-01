@@ -1,5 +1,7 @@
 # An Essay on Start Ups, Innovation and Technology
 
+Link to the live [draft version is here.][3]
+
 ## Economic Battle of Rust Belt Cities 
 
 Core thesis, mixture of original and borrowed thoughts that is poorly cited, working on improving this. 
@@ -41,3 +43,4 @@ Software eating the world.  Automation + reach.  Never been more fertile environ
 
 [1]: http://ben-evans.com/benedictevans/2014/10/28/presentation-mobile-is-eating-the-world
 [2]: https://www.youtube.com/watch?v=IPgyb6euISs
+[3]: draft.hamont.meteor.com
