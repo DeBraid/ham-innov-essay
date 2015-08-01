@@ -1,30 +1,28 @@
 <template name="homepage">
     {{> masthead }}
+    {{> essay_body }}
+</template>
 
-    <!--main essay content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-hidden col-xs-hidden" id="leftCol">
-                {{> sidebar }}
-            </div>
-            <!--right essay content-->
-            <div id="report-body" class="col-sm-9">
-                {{> summary }}
-                <hr> {{> intro }}
-                <hr> {{> recipe}}
-                <hr> {{> innovation}}
-                <hr> {{> capitalInCanada}}
-                <hr> {{> software }}
-                <hr> {{> startups }}
-                <hr> {{> management }}
-                <hr> {{> risk }}
-                <hr> {{> talent }}
-                <hr> {{> conclusion }}
-                <hr> {{> charts }}
-            </div>
-            <!--/right-->
+<template name="essay_body">
+    <div class="row">
+        <div class="col-md-3 col-sm-hidden col-xs-hidden" id="leftCol">
+            {{> sidebar }}
         </div>
-        <!--/row-->
+        <!--right essay content-->
+        <div id="report-body" class="col-sm-9">
+            {{> summary }}
+            <hr> {{> intro }}
+            <hr> {{> recipe}}
+            <hr> {{> innovation}}
+            <hr> {{> capitalInCanada}}
+            <hr> {{> software }}
+            <hr> {{> startups }}
+            <hr> {{> management }}
+            <hr> {{> risk }}
+            <hr> {{> talent }}
+            <hr> {{> conclusion }}
+            <hr> {{> charts }}
+        </div>
+        <!--/right-->
     </div>
-    <!--/container-->
 </template>
