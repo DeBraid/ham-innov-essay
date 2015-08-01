@@ -43,4 +43,4 @@ Software eating the world.  Automation + reach.  Never been more fertile environ
 
 [1]: http://ben-evans.com/benedictevans/2014/10/28/presentation-mobile-is-eating-the-world
 [2]: https://www.youtube.com/watch?v=IPgyb6euISs
-[3]: draft.hamont.meteor.com
+[3]: http://draft.hamont.meteor.com/
