@@ -17,6 +17,9 @@ Template.sidebar.helpers({
 		    id: 'innovation',
 		    pretty: 'Innovation'
 		}, {
+		    id: 'patents',
+		    pretty: 'Patents'
+		}, {
 		    id: 'capitalInCanada',
 		    pretty: 'Capital In Canada'
 		}, {
