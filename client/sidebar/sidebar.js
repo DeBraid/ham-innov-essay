@@ -20,7 +20,7 @@ Template.sidebar.helpers({
 		    id: 'patents',
 		    pretty: 'Patents'
 		}, {
-		    id: 'capitalInCanada',
+		    id: 'capital-in-canada',
 		    pretty: 'Capital In Canada'
 		}, {
 		    id: 'software',
