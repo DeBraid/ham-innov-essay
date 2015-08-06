@@ -23,6 +23,9 @@ Template.sidebar.helpers({
 		    id: 'capital-in-canada',
 		    pretty: 'Capital In Canada'
 		}, {
+		    id: 'military-in-valley',
+		    pretty: 'Military In Valley'
+		}, {
 		    id: 'software',
 		    pretty: 'Software'
 		}, {
