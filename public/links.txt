@@ -1,3 +1,9 @@
+"Over the past 30 years, venture capital has become a dominant force in the financing of innovative American companies. From Google to Intel to FedEx, companies supported by venture capital have profoundly changed the U.S. economy. Despite the young age of the venture capital industry, public companies with venture capital backing employ four million people and account for one-fifth of the market capitalization and 44% of the research and development spending of U.S. public companies. From research and development to employment to simple revenue, the companies funded by venture capital are a major part of the U.S. economy."
+
+papers.ssrn.com/sol3/papers.cfm?abstract_id=2681841
+
+*************************
+
 TAXES
 
 Good read on taxes.  When I left RBC (2013), generally was preferred to earn dividends from a corp (for most small biz, or CCPCs) vs. salary.  Appears since 2014 that is no longer true in Ontario, straight salary wins (even at highest marginal tax rates, so those in lower income brackets stand to benefit even more from taking salary).
