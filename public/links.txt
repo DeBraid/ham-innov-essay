@@ -1,3 +1,17 @@
+Vinod Kholsa:
+"At a startup, you can be tricked into thinking you’re building a technology company, so you focus a lot on the product. But ultimately, you’re really building a team to build the product and then the company. 
+
+ref: firstround.com/review/Keith-Rabois-on-the-role-of-a-COO-how-to-hire-and-why-transparency-matters/
+from Keith Rabois on operating, regarding a barrel-and-ammunition approach. 
+
+Hiring the Best — Barrels & Ammunition
+
+"Getting leverage as an entrepreneur is all about hiring the right people. That sounds easy, but it’s actually really, really hard.
+
+If you think about people, there are two categories of high-quality people: there is the ammunition, and then there are the barrels. You can add all the ammunition you want, but if you have only five barrels in your company, you can literally do only five things simultaneously. If you add one more barrel, you can now do six things simultaneously. If you add another one, you can do seven, and so on. Finding those barrels that you can shoot through — someone who can take an idea from conception to live and it’s almost perfect — are incredibly difficult to find. This kind of person can pull people with them. They can charge up the hill. They can motivate their team, and they can edit themselves autonomously. Whenever you find a barrel, you should hire them instantly, regardless of whether you have money for them or whether you have a role for them. Just close them. firstround.com/review/Keith-Rabois-on-the-role-of-a-COO-how-to-hire-and-why-transparency-matters/
+********************************
+
+
 "Over the past 30 years, venture capital has become a dominant force in the financing of innovative American companies. From Google to Intel to FedEx, companies supported by venture capital have profoundly changed the U.S. economy. Despite the young age of the venture capital industry, public companies with venture capital backing employ four million people and account for one-fifth of the market capitalization and 44% of the research and development spending of U.S. public companies. From research and development to employment to simple revenue, the companies funded by venture capital are a major part of the U.S. economy."
 
 papers.ssrn.com/sol3/papers.cfm?abstract_id=2681841
