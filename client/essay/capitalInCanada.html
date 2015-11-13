@@ -12,7 +12,8 @@
 
 	{{> steve_blank_vc_in_canada }}
 
-	{{> funding_in_2015 }}
+	<!-- {{> funding_in_2015 }} -->
+	{{> source_of_funding }}
 </template>
 
 <template name="steve_blank_vc_in_canada">
@@ -43,25 +44,48 @@
 	<p>
 		Deals by Stage: Early 843, Later 381, Other 241, Seed 99, Bridge 65 <a href="www.cvca.ca/wp-content/uploads/2015/11/FINAL-Venture-Capital-First-3Q.pdf">via CVCA.</a>  This included 10 deals above $30 million, 3 of which exceeded $50 million.
 	</p>
-	
-	<h4>Funds raised by source (millions $CAD)</h4>
-	<p><a href="http://www.cvca.ca/wp-content/uploads/2015/11/FINAL-Venture-Capital-First-3Q.pdf">Source</a></p>
-	<table class="table">
-		<thead>
-			<tr><th>Fund Type</th><th># of Funds</th><th>Raised</th><th>Median</th></tr>
-		</thead>
-		<tbody>
-			<tr> <td class>Private</td> <td>14</td> <td>19</td> <td>909</td></tr>
-			<tr> <td class>Retail</td> <td>5</td> <td>13</td> <td>267</td></tr>
-			<tr> <td class>Government</td> <td>2</td> <td>2</td> <td>162</td></tr>
-			<tr> <td class>Total</td> <td>21</td> <td>34</td> <td>1,338</td></tr>
-		</tbody>
-	</table>
-
 
 	<div class="row">
 		<div class="col-sm-12">
 			<img class="img-responsive" src="vc-in-canada-2015-infographic.png" alt="">
 		</div>
+	</div>
+</template>
+
+
+<template name="source_of_funding">
+	<style>
+	.data-table {
+	    position: relative;
+	    padding: 15px;
+	    margin: 0 -15px 15px;
+	    border-color: #e5e5e5 #eee #eee;
+	    border-style: solid;
+	    border-width: 1px 0;
+	    -webkit-box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+	    box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+	}      
+	</style>
+	<div class="data-table">
+		<h4>Funds raised by source in Canada 2015 Q3 </h4>
+		<p><a href="http://www.cvca.ca/wp-content/uploads/2015/11/FINAL-Venture-Capital-First-3Q.pdf">Source</a></p>
+	    <table class="table">
+	        <thead>
+	            <tr><th>Type</th><th>Amount (millions $CAD)</th></tr>
+	        </thead>
+	        <tbody>
+		        <tr><td>Individuals / Family Offices</td><td>430</td></tr>
+		        <tr><td>Governments</td><td>255</td></tr>
+		        <tr><td>Pension Funds</td><td>230</td></tr>
+		        <tr><td>Fund of Funds</td><td>221</td></tr>
+		        <tr><td>Corporations</td><td>202</td></tr>
+	        </tbody>
+	    </table>
+	</div>
+	<div class="row">
+		<img src="private-vc-investment-in-canada.png" alt="" class="img-responsive">
+	</div>
+	<div class="row">
+		<img src="vc-deals-in-canada-2013-2015.png" alt="" class="img-responsive">
 	</div>
 </template>
