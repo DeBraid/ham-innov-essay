@@ -1,3 +1,12 @@
+Waterloo CRE driven by startup culture: see CRE absorption rates post-BBRY collapse https://twitter.com/Royal_Arse/status/675710060937535488
+__________________
+
+
+YC -- Who we hire: 
+Programmers who used Java or C# (when interviewing with us) go on to pass interviews with companies at half the rate of programmers who use Ruby or JavaScript. (The C# pass rate is actually much lower than the Java pass rate, but the C# numbers are not yet significant by themselves.) Tangential facts: programmers who use Vim with us pass interviews with companies at a higher rate than programmers who use Emacs, and programmers on Windows pass at a lower rate than programmers on OS X or Linux. https://data.triplebyte.com/who-y-combinator-companies-want-c1880a08ac88#.klmetkm5b
+
+_______________
+
 Canada Venture Capital Stats : http://www.conferenceboard.ca/hcp/provincial/innovation/venture-capital.aspx
 
 Canada needs more capital tweetstorm: https://twitter.com/Royal_Arse/status/666692538456215553
