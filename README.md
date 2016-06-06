@@ -1,6 +1,8 @@
 # An Essay on Start Ups, Innovation and Technology
 
-Link to the live [draft version is here.][3]
+On-going notes and links are added to [this file][3].
+
+Sample chapters / sections are found by name in [this folder][4].
 
 ## Economic Battle of Rust Belt Cities 
 
@@ -43,4 +45,5 @@ Software eating the world.  Automation + reach.  Never been more fertile environ
 
 [1]: http://ben-evans.com/benedictevans/2014/10/28/presentation-mobile-is-eating-the-world
 [2]: https://www.youtube.com/watch?v=IPgyb6euISs
-[3]: http://draft.hamont.meteor.com/
+[3]: https://github.com/DeBraid/ham-innov-essay/blob/master/public/links.txt
+[4]: https://github.com/DeBraid/ham-innov-essay/tree/master/client/essay
