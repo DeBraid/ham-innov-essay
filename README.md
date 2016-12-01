@@ -4,6 +4,8 @@ On-going notes and links are added to [this file][3].
 
 Sample chapters / sections are found by name in [this folder][4].
 
+Please send bitcoin to support this project 1CoeUKeKFEBBcFY3aoEjWRM1z2UEna9MRv
+
 ## Economic Battle of Rust Belt Cities 
 
 Core thesis, mixture of original and borrowed thoughts that is poorly cited, working on improving this. 
